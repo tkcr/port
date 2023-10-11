@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+      ul li{
+        color:azure;
+        font-size:22px;
+      }
+      ol li{
+        color:azure;
+        font-size:22px;
+        margin-bottom:5px;
+      }
+      p{
+        font-size: 22px;
+        padding-left:60px;
+        padding-right:50px;
+        text-align: justify;
+        word-spacing: 7px;
+      }
+      hr{
+        border-color: #eacdf3fd;
+        border-style: double;
+      }
+      h2{
+        font-size:45px;
+        color:rgb(73, 57, 248);
+        text-decoration-style: wavy;
+        padding-left: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+    .sidenav {
+    height: 100%; 
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color:#66a1ee; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top:50px; /* Place content 60px from the top */
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  /* The navigation menu links */
+  .sidenav a {
+    text-align: center;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-decoration: none;
+   font-size: 18px;
+   color:#0b0330;
+   display:block;
+   transition: 0.2s;
+   font-weight: bolder;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover 
+  {
+    height:20px;
+    width:80%;
+    background-color: black;
+    color: white;
+    border-radius:8px;
+  }
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position:absolute;
+    top: 10px;
+    width:30px;
+    right:20px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  .main {
+    transition: margin-left .3s;
+    padding-top: 10px;
+    overflow-x:hidden;
+  }
+  .home1{
+    width: 100%;
+    height: 500px;
+    background-color: #d3e2f6;
+    text-align: center;
+    border-radius: 50%;
+  }
+  </style>
+<script>
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "270px";
+  document.getElementById("main").style.marginLeft = "270px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</head>
+<body style="background-color: black;">
+    <div id="mySidenav" class="sidenav">
+        <img src="https://t4.ftcdn.net/jpg/02/36/07/65/360_F_236076551_dpnDAd1BBl0hppzY6kBuO1wmy9C7R1Mu.jpg" class="closebtn" onclick="closeNav()"></img>
+        <div style="padding-left:10%;padding-right:10%;"><img style="padding-left:0%;width:200px;border-radius: 50px 20px;border-color: black; border-style: solid;border-block-width: thin thick;"src="portfolio1.jpg"/>
+        <p style="border-radius: 20px 40px;border-color: black;background-color: #E6E6FA; text-align: center;color:black;border-style: solid;border-block-width: 0 thick;font-size:20px;font-weight: bolder;font-family:Arial, Helvetica, sans-serif;">Samhitha Kumar Molugaram</p></div>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#eae">PORTFOLIO</a>
+        <a href="#eae1">CONTACT</a>
+        <p style="text-align: center;padding-top:0px; padding-bottom: 12px;color:#66a1ee;">stagare</p>
+    </div>
+      <span onclick="openNav()"><img style="padding:15px; position:fixed;" width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEYHp9G9qyC4v48TK0mk9mxaFgXxzLC-NIqxpbOpluKCeOtjdEJMgqGAw_Vz2LQg647O4&usqp=CAU"></span>
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main">
+        <div id="home" class="home1" style="padding-top:10%;">
+          <table>
+            <tr>
+              <td><h1 style="font-size:45px;padding-left:150px;font-family:sans-serif;">HELLO WORLD!!!!</h1></td>
+              <td rowspan="4"><img style="border-radius: 50%;padding-top:52px;padding-left:80px;padding-right:60px;width:190px;"src="portfolio1.jpg"/></td>
+            </tr>
+            <tr>
+              <!-- <td style="font-size:20px;padding-right:0px;padding-left:100px">This must be first programs of yours also:)</td> -->
+            </tr>
+            <tr>
+              <td style="text-align: justify;padding-left:110px;font-size: 22px;font-weight: bold;font-family: Georgia, 'Times New Roman', Times, serif;">Welcome to my website. I am a student doing my undergrad in B.E(Artificial Intelligence and Data Science).</td>
+            <tr>
+              <td> </td>
+            </tr>
+           </table>
+        </div>
+        <br><br><br><br>
+        <div id="about" style="background-color: #d3e2f6;width:100%">
+          <br><br><br>
+          <h2 style="font-family:cursive">About meee ;))</h2>
+          <p>I am Kethan Chandar Reddy.</p>
+          <p>I studied in Johnson Grammar School(ICSE) from nursery to 10th grade, where I was an enthusiast of Drawing, Playing outdoor Sports like Volleyball, Throwball, Cricket and Athletics . I participated in many other things such as Quizez,Dramatics
+            etc..
+          </p>
+        </div>
+        <br><br><br>
+        <div id="eae">
+          <h2>EDUCATION</h2>
+           
+           </p>
+           <p style="border-color: rgb(245, 112, 112);border-width:0 0 0 5px;border-style:solid;padding-left:30px"><b style="font-size:30px;color:rgb(161, 237, 194);">Chaitanya Bharathi Institute of Technology, Hyderabad</b><br>M.Tech in Power Electronics
+            <br> (2002),  Hyderabad,India
+          </p>
+          <p style="border-color: rgb(245, 112, 112);border-width:0 0 0 5px;border-style:solid;padding-left:30px"><b style="font-size:30px;color:rgb(161, 237, 194);">Nine Education</b><br>MS (DLPD)
+            <br> (1996),  Hyderabad,India
+          </p>
+          <p style="border-color: rgb(245, 112, 112);border-width:0 0 0 5px;border-style:solid;padding-left:30px"><b style="font-size:30px;color:rgb(161, 237, 194);">Johnson Grammar School</b><br>B.Tech
+            <br> (1992), Machilipatnam,India
+          </p>
+          <br><br><br>
+        </div>
+        <div id="eae1" style="background-color: #d3e2f6;width:100%">
+          <br><br><br>
+          <h2>Portfolio</h2>
+          <p style="border-color: rgb(245, 112, 112);border-width:0 0 0 5px;border-style:solid;padding-left:30px"><b style="font-size:30px;color:#66a1ee(161, 237, 194)">Leetcode Link</b><br>Professor
+          <br> <a href="https://leetcode.com/kethancreddy/">leetcode</a>
+          </p>
+          <p style="border-color: rgb(245, 112, 112);border-width:0 0 0 5px;border-style:solid;padding-left:30px"><b style="font-size:30px;color:#66a1ee(161, 237, 194)">LinkedIn</b><br>
+            <a href="linkedin.com/in/kethan-reddy-8b9052246/">LinkedIn</a>
+          </p>
+          <br>
+           <br><br><br>
+          
+        </div>
+    </body>
+</html>
